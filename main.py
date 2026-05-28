@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 import sqlite3
 import random
 
-TOKEN = "8464845224:AAE0zcoeFhaJcmLEaFORUG-CiDDRUqAjcgQ"
+TOKEN ="8464845224:AAE0zcoeFhaJcmLEaFORUG-CiDDRUqAjcgQ"
 
 conn = sqlite3.connect("warzone.db", check_same_thread=False)
 cur = conn.cursor()
